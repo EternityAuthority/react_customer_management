@@ -71,6 +71,7 @@ const AddressItem = ({ data }) => {
   
     const handleOnSubmit = () => {
         // event.preventDefault();
+        // update button
         const values = [firstname, lastname, address, address2, city, state, zipcode];
         let errorMsg = '';
   
